@@ -5,6 +5,7 @@ A high-performance, custom-built Transformer architecture trained from scratch o
 ## Useful Links
 
 [Live Demo](https://huggingface.co/spaces/BhaveshAgarwal67/Mini_LLM)
+
 [Kaggle Notebook](https://www.kaggle.com/code/bhaveshagarwal67/harry-potter-llm)
 
 ---
@@ -104,23 +105,21 @@ The differences observed highlight how the **statistical distribution of the tra
 ```bash
 git clone https://github.com/BhaveshAgarwal67/Affect-of-dataset-using-custom-LLM.git
 cd Affect-of-dataset-using-custom-LLM
-
+```
 
 2. **Build the containerized environment:**
 ```bash
 docker build -t transformer .
-
 ```
 
 
 3. **Launch the application:**
 ```bash
 docker run -p 8501:8501 transformer
-
 ```
 
 
-*Access the app at `http://localhost:8501*`
+*Access the app at `http://localhost:8501`*
 
 ---
 
